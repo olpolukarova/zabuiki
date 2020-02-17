@@ -1,9 +1,8 @@
 $font: 'TT Commons', Arial, Helvetica, sans-serif;
 
-$blue: #5972b1;
-$blue-bright: #3a5bbf;
-$green: #76b46f;
-$black: #262424;
+$grey: #e7e7e7;
+$blue: #D9E1ED; 
+$red: #FF0000;
 
 $font-size: 18px;
 $font-lineheight: 1.16em;
@@ -20,7 +19,7 @@ body {
   font-weight: normal;
   font-family: $font;
   line-height: $font-lineheight;
-  color: $black;
+  color: $blue;
   &.hidden {
     overflow: hidden;
   }
