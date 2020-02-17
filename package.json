@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "babel": "^6.23.0",
-    "bower": "^1.8.4",
+    "bower": "^1.8.8",
     "del": "^3.0.0",
     "fullpage": "^1.4.2",
     "gulp-cache": "^1.0.2",
