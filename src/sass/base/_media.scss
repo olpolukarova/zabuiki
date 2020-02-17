@@ -1,0 +1,14 @@
+$maxscreen: 1920px;
+$middlescreen: 1400px;
+$lowscreen: 1200px;
+$tablet: 980px;
+$phone-max: 768px;
+$phone-middle: 600px;
+$phone-min: 480px;
+
+@mixin media($size) {
+  @media(max-width: $size){
+    @content;
+  }
+}
+

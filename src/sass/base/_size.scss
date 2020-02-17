@@ -1,0 +1,11 @@
+$baseWidth: 1920px;
+$baseFontSize: 1rem;
+
+@mixin sta-prop($prop, $value) {
+  #{$prop}: $value;
+  #{$prop}: sta-relative($value);
+};
+@function sta-relative($value) {
+  $newValue: ($value / $baseWidth) * 100vw;
+  @return ($newValue / $baseFontSize) * 1rem;
+}

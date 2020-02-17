@@ -1,0 +1,25 @@
+// %flex-wrap {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+// }
+
+// %flex-nowrap{
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: nowrap;
+// }
+
+
+// // z-index 
+// $iLow: 1;
+// $iMedium: 10;
+// $iHigh: 100;
+// $iMax: 1000;
+
+// @mixin index($index){
+//   z-index: $index;
+// }
+
+
+
