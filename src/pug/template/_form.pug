@@ -2,11 +2,12 @@
   .form__wrap
     .form__title Вступить в клуб
     form.form__content(action="")
-      .form__rows 
-        input(type="text" placeholder="Осинцев Константин" required)
-        input(type="email" placeholder="osintsev.k.s@gmail.com" required)
-        input(type="number" placeholder="Телефон" required)
-        input(type="url" placeholder="Ссылка на FB или IG" required)
+      .form__column 
+        input.form__input(type="text" placeholder="Осинцев Константин" required)
+        input.form__input(type="email" placeholder="osintsev.k.s@gmail.com" required)
+        input.form__input(type="text" placeholder="Телефон" required)
+        input.form__input(type="url" placeholder="Ссылка на FB или IG" required)
       .form__buttons
         button.form__button.form__button--submit(type='submit') Отправить заявку
         button.form__button.form__button--required(type='button') Заполни все поля  
+    a.form__close(href="#")

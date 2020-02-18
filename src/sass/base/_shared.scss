@@ -3,6 +3,7 @@ $font: 'TT Commons', Arial, Helvetica, sans-serif;
 $grey: #e7e7e7;
 $blue: #D9E1ED; 
 $red: #FF0000;
+$placeholder-color: #ffffff;
 
 $font-size: 18px;
 $font-lineheight: 1.16em;
@@ -19,7 +20,7 @@ body {
   font-weight: normal;
   font-family: $font;
   line-height: $font-lineheight;
-  color: $blue;
+  color: #000000;
   &.hidden {
     overflow: hidden;
   }
@@ -64,16 +65,43 @@ p{
     margin: 0;
 }
 
+::-webkit-input-placeholder {
+  color: $placeholder-color;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+:-moz-placeholder {
+  color: $placeholder-color;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+::-moz-placeholder {
+  color: $placeholder-color;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+:-ms-input-placeholder {
+  color: $placeholder-color;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+:focus::-moz-placeholder {
+  color: transparent; }
+
+:focus:-moz-placeholder {
+  color: transparent; }
+
+
 .container {
   width: 100%;
   max-width: 1100px;
   padding: 0 20px;
   margin: 0 auto;
-}
-.title{    
-color: #262424;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 49px;
-font-weight: 700;
-line-height: normal;
 }
