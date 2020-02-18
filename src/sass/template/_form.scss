@@ -87,10 +87,9 @@
   display: block;
   width: 32px;
   height: 32px;
-  background: url(/images/close.svg);
+  background-image: url(/images/close.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #fff; //потом удалить, не добавляется bg
   top: 0;
   right: 120px;
 }
