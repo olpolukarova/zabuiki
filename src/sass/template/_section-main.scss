@@ -21,9 +21,11 @@
   font-weight: 500;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  max-width: 206px;
-  background-image: url(/images/like.png);
+  max-width: 205px;
+  background-image: url(/images/icons_like.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   padding-top: 62px;
+  transform: rotate(345deg);
+  align-self: center;
 }
