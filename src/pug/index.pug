@@ -2,7 +2,9 @@
 html(lang="ru")
   include base/_head
   body
-    //- include template/_header
-    include template/_form
-    //- include template/_footer
-    include base/_scripts 
+    .wrapper.wrapper-main
+      include template/_header
+      include template/_section-main
+      //- include template/_form
+      include template/_footer
+      include base/_scripts 
